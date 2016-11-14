@@ -9,7 +9,7 @@ use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
-class Empty extends \Google\Protobuf\Internal\Message
+class EmptyMessage extends \Google\Protobuf\Internal\Message
 {
 
 }
