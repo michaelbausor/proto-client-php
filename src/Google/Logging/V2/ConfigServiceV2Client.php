@@ -20,7 +20,7 @@ namespace Google\Logging\V2 {
 
   // Service for configuring sinks used to export log entries outside of
   // Stackdriver Logging.
-  class ConfigServiceV2Client extends \Grpc\BaseStub {
+  class ConfigServiceV2GrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

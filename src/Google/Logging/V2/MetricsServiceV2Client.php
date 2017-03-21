@@ -19,7 +19,7 @@
 namespace Google\Logging\V2 {
 
   // Service for configuring logs-based metrics.
-  class MetricsServiceV2Client extends \Grpc\BaseStub {
+  class MetricsServiceV2GrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

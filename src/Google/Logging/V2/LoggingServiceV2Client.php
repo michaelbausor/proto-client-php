@@ -19,7 +19,7 @@
 namespace Google\Logging\V2 {
 
   // Service for ingesting and querying logs.
-  class LoggingServiceV2Client extends \Grpc\BaseStub {
+  class LoggingServiceV2GrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname
