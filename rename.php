@@ -50,7 +50,7 @@ $reg = new RegexIterator($it, '/^.+\.php$/i', RecursiveRegexIterator::GET_MATCH)
 foreach ($reg as $files) {
     $file = $files[0];
     $str = file_get_contents($file);
-    $str = str_replace("Empty::deserialize", "EmptyC::deserialize", $str);
+    $str = str_replace("\\Google\\Protobuf\\Empty", "\\Google\\Protobuf\\GPBEmpty", $str);
     $str = preg_replace("{(\W)Case(\W)}", "$1CaseC$2", $str);
     $str = preg_replace("{(\W)LIST(\W)}", "$1LIST_$2", $str);
     $str = preg_replace("{(Grpc)?Client}", "GrpcClient", $str);
