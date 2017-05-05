@@ -27,7 +27,7 @@ namespace Google\Longrunning {
   // Google Cloud Pub/Sub API) to receive the response.  Any API service that
   // returns long-running operations should implement the `Operations` interface
   // so developers can have a consistent client experience.
-  class OperationsClient extends \Grpc\BaseStub {
+  class OperationsGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

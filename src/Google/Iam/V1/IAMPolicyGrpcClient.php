@@ -43,7 +43,7 @@ namespace Google\Iam\V1 {
   // This is intentionally not a CRUD style API because access control policies
   // are created and deleted implicitly with the resources to which they are
   // attached.
-  class IAMPolicyClient extends \Grpc\BaseStub {
+  class IAMPolicyGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

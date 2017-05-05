@@ -19,7 +19,7 @@
 namespace Google\Api\Servicemanagement\V1 {
 
   // [Google Service Management API](/service-management/overview)
-  class ServiceManagerClient extends \Grpc\BaseStub {
+  class ServiceManagerGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

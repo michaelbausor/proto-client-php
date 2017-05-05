@@ -22,7 +22,7 @@ namespace Google\Api\Servicecontrol\V1 {
   //
   // Lets clients check and report operations against
   // a [managed service][google.api.servicemanagement.v1.ManagedService].
-  class ServiceControllerClient extends \Grpc\BaseStub {
+  class ServiceControllerGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname
