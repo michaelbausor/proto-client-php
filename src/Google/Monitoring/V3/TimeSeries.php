@@ -244,8 +244,8 @@ class TimeSeries extends \Google\Protobuf\Internal\Message
      */
     public function setPoints(&$var)
     {
-        GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Monitoring\V3\Point::class);
-        $this->points = $var;
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Monitoring\V3\Point::class);
+        $this->points = $arr;
     }
 
 }

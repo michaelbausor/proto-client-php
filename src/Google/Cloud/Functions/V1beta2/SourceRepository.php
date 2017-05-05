@@ -231,7 +231,7 @@ class SourceRepository extends \Google\Protobuf\Internal\Message
 
     public function getVersion()
     {
-        return $this->version;
+        return $this->whichOneof("version");
     }
 
 }

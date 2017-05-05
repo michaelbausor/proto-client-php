@@ -65,8 +65,8 @@ class ListMetricDescriptorsResponse extends \Google\Protobuf\Internal\Message
      */
     public function setMetricDescriptors(&$var)
     {
-        GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Api\MetricDescriptor::class);
-        $this->metric_descriptors = $var;
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Api\MetricDescriptor::class);
+        $this->metric_descriptors = $arr;
     }
 
     /**

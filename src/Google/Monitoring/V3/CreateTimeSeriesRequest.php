@@ -100,8 +100,8 @@ class CreateTimeSeriesRequest extends \Google\Protobuf\Internal\Message
      */
     public function setTimeSeries(&$var)
     {
-        GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Monitoring\V3\TimeSeries::class);
-        $this->time_series = $var;
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Monitoring\V3\TimeSeries::class);
+        $this->time_series = $arr;
     }
 
 }

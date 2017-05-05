@@ -63,8 +63,8 @@ class ListFunctionsResponse extends \Google\Protobuf\Internal\Message
      */
     public function setFunctions(&$var)
     {
-        GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Cloud\Functions\V1beta2\CloudFunction::class);
-        $this->functions = $var;
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Cloud\Functions\V1beta2\CloudFunction::class);
+        $this->functions = $arr;
     }
 
     /**

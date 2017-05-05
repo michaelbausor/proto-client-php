@@ -427,12 +427,12 @@ class CloudFunction extends \Google\Protobuf\Internal\Message
 
     public function getSourceCode()
     {
-        return $this->source_code;
+        return $this->whichOneof("source_code");
     }
 
     public function getTrigger()
     {
-        return $this->trigger;
+        return $this->whichOneof("trigger");
     }
 
 }
