@@ -19,7 +19,7 @@
 namespace Google\Cloud\Speech\V1beta1 {
 
   // Service that implements Google Cloud Speech API.
-  class SpeechClient extends \Grpc\BaseStub {
+  class SpeechGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

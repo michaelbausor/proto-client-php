@@ -23,7 +23,7 @@ namespace Google\Devtools\Cloudtrace\V1 {
   // operation or set of operations for an application. A span is an individual
   // timed event which forms a node of the trace tree. Spans for a single trace
   // may span multiple services.
-  class TraceServiceClient extends \Grpc\BaseStub {
+  class TraceServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

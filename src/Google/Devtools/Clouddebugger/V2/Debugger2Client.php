@@ -30,7 +30,7 @@ namespace Google\Devtools\Clouddebugger\V2 {
   //
   // The Debugger service enables the client to set one or more Breakpoints on a
   // Debuggee and collect the results of the set Breakpoints.
-  class Debugger2Client extends \Grpc\BaseStub {
+  class Debugger2GrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

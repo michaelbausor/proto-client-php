@@ -19,7 +19,7 @@
 namespace Google\Devtools\Clouderrorreporting\V1beta1 {
 
   // Service for retrieving and updating individual error groups.
-  class ErrorGroupServiceClient extends \Grpc\BaseStub {
+  class ErrorGroupServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

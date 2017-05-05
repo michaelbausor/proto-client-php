@@ -19,7 +19,7 @@
 namespace Google\Cloud\Functions\V1beta2 {
 
   // A service that application uses to manipulate triggers and functions.
-  class CloudFunctionsServiceClient extends \Grpc\BaseStub {
+  class CloudFunctionsServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

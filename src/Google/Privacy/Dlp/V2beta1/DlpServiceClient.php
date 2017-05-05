@@ -24,7 +24,7 @@ namespace Google\Privacy\Dlp\V2beta1 {
   // blocks or images.
   // The service also includes methods for sensitive data redaction and
   // scheduling of data scans on Google Cloud Platform based data sets.
-  class DlpServiceClient extends \Grpc\BaseStub {
+  class DlpServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

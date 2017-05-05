@@ -39,7 +39,7 @@ namespace Google\Spanner\Admin\Instance\V1 {
   // instance receives a lot of requests and consumes most of the
   // instance resources, fewer resources are available for other
   // databases in that instance, and their performance may suffer.
-  class InstanceAdminClient extends \Grpc\BaseStub {
+  class InstanceAdminGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

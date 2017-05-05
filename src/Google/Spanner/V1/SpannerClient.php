@@ -22,7 +22,7 @@ namespace Google\Spanner\V1 {
   //
   // The Cloud Spanner API can be used to manage sessions and execute
   // transactions on data stored in Cloud Spanner databases.
-  class SpannerClient extends \Grpc\BaseStub {
+  class SpannerGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

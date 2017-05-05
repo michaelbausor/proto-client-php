@@ -20,7 +20,7 @@ namespace Google\Monitoring\V3 {
 
   // Manages metric descriptors, monitored resource descriptors, and
   // time series data.
-  class MetricServiceClient extends \Grpc\BaseStub {
+  class MetricServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

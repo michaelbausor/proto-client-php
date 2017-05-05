@@ -38,7 +38,7 @@ namespace Google\Devtools\Clouddebugger\V2 {
   // The Controller service does not provide a way to retrieve the results of
   // a completed breakpoint. This functionality is available using the Debugger
   // service.
-  class Controller2Client extends \Grpc\BaseStub {
+  class Controller2GrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

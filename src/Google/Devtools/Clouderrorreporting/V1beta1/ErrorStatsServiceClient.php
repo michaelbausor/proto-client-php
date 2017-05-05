@@ -20,7 +20,7 @@ namespace Google\Devtools\Clouderrorreporting\V1beta1 {
 
   // An API for retrieving and managing error statistics as well as data for
   // individual events.
-  class ErrorStatsServiceClient extends \Grpc\BaseStub {
+  class ErrorStatsServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

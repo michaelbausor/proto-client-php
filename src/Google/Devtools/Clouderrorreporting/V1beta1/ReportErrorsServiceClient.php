@@ -19,7 +19,7 @@
 namespace Google\Devtools\Clouderrorreporting\V1beta1 {
 
   // An API for reporting error events.
-  class ReportErrorsServiceClient extends \Grpc\BaseStub {
+  class ReportErrorsServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

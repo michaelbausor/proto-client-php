@@ -20,7 +20,7 @@ namespace Google\Cloud\Language\V1beta2 {
 
   // Provides text analysis operations such as sentiment analysis and entity
   // recognition.
-  class LanguageServiceClient extends \Grpc\BaseStub {
+  class LanguageServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

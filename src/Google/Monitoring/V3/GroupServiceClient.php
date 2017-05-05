@@ -30,7 +30,7 @@ namespace Google\Monitoring\V3 {
   // for example, an alert policy, the target of that alert policy is
   // updated automatically as monitored resources are added and removed
   // from the infrastructure.
-  class GroupServiceClient extends \Grpc\BaseStub {
+  class GroupServiceGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

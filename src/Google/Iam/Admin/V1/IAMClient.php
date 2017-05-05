@@ -34,7 +34,7 @@ namespace Google\Iam\Admin\V1 {
   // Using `-` as a wildcard for the project will infer the project from
   // the account. The `account` value can be the `email` address or the
   // `unique_id` of the service account.
-  class IAMClient extends \Grpc\BaseStub {
+  class IAMGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

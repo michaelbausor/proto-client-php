@@ -23,7 +23,7 @@ namespace Google\Spanner\Admin\Database\V1 {
   // The Cloud Spanner Database Admin API can be used to create, drop, and
   // list databases. It also enables updating the schema of pre-existing
   // databases.
-  class DatabaseAdminClient extends \Grpc\BaseStub {
+  class DatabaseAdminGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

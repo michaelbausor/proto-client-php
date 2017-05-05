@@ -25,7 +25,7 @@ namespace Google\Datastore\V1 {
   // input keys sets the project ID (if not already set) to the project ID from
   // the request.
   //
-  class DatastoreClient extends \Grpc\BaseStub {
+  class DatastoreGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

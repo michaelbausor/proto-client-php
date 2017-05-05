@@ -20,7 +20,7 @@ namespace Google\Pubsub\V1 {
 
   // The service that an application uses to manipulate subscriptions and to
   // consume messages from a subscription via the `Pull` method.
-  class SubscriberClient extends \Grpc\BaseStub {
+  class SubscriberGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname

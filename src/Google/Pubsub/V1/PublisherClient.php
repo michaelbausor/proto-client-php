@@ -20,7 +20,7 @@ namespace Google\Pubsub\V1 {
 
   // The service that an application uses to manipulate topics, and to send
   // messages to a topic.
-  class PublisherClient extends \Grpc\BaseStub {
+  class PublisherGrpcClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname
