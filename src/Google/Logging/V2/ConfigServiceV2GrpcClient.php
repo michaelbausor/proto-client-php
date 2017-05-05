@@ -109,7 +109,7 @@ namespace Google\Logging\V2 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.logging.v2.ConfigServiceV2/DeleteSink',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

@@ -76,7 +76,7 @@ namespace Google\Devtools\Cloudtrace\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.devtools.cloudtrace.v1.TraceService/PatchTraces',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

@@ -91,7 +91,7 @@ namespace Google\Spanner\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.spanner.v1.Spanner/DeleteSession',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -236,7 +236,7 @@ namespace Google\Spanner\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.spanner.v1.Spanner/Rollback',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

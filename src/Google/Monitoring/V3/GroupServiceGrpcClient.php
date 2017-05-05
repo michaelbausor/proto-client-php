@@ -108,7 +108,7 @@ namespace Google\Monitoring\V3 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.monitoring.v3.GroupService/DeleteGroup',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

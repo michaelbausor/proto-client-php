@@ -50,6 +50,7 @@ $reg = new RegexIterator($it, '/^.+\.php$/i', RecursiveRegexIterator::GET_MATCH)
 foreach ($reg as $files) {
     $file = $files[0];
     $str = file_get_contents($file);
+    $str = str_replace("\\Google\\Protobuf\\Empty", "\\Google\\Protobuf\\GPBEmpty", $str);
     $str = preg_replace("{class (\w+?)(Grpc)?Client}", "class $1GrpcClient", $str);
     file_put_contents($file, $str);
     if (preg_match("{(\w+?)(Grpc)?Client.php}", $file)) {

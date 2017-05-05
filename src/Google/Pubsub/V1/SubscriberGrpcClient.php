@@ -111,7 +111,7 @@ namespace Google\Pubsub\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.pubsub.v1.Subscriber/DeleteSubscription',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -129,7 +129,7 @@ namespace Google\Pubsub\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.pubsub.v1.Subscriber/ModifyAckDeadline',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -149,7 +149,7 @@ namespace Google\Pubsub\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.pubsub.v1.Subscriber/Acknowledge',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -207,7 +207,7 @@ namespace Google\Pubsub\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.pubsub.v1.Subscriber/ModifyPushConfig',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -261,7 +261,7 @@ namespace Google\Pubsub\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.pubsub.v1.Subscriber/DeleteSnapshot',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

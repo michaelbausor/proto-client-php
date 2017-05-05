@@ -226,7 +226,7 @@ namespace Google\Spanner\Admin\Instance\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.spanner.admin.instance.v1.InstanceAdmin/DeleteInstance',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

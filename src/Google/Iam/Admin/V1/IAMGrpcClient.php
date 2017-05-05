@@ -116,7 +116,7 @@ namespace Google\Iam\Admin\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.iam.admin.v1.IAM/DeleteServiceAccount',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -174,7 +174,7 @@ namespace Google\Iam\Admin\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.iam.admin.v1.IAM/DeleteServiceAccountKey',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

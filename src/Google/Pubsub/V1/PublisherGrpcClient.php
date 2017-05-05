@@ -117,7 +117,7 @@ namespace Google\Pubsub\V1 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.pubsub.v1.Publisher/DeleteTopic',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 

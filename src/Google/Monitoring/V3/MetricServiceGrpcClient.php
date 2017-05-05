@@ -114,7 +114,7 @@ namespace Google\Monitoring\V3 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.monitoring.v3.MetricService/DeleteMetricDescriptor',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
@@ -145,7 +145,7 @@ namespace Google\Monitoring\V3 {
       $metadata = [], $options = []) {
       return $this->_simpleRequest('/google.monitoring.v3.MetricService/CreateTimeSeries',
       $argument,
-      ['\Google\Protobuf\Empty', 'decode'],
+      ['\Google\Protobuf\GPBEmpty', 'decode'],
       $metadata, $options);
     }
 
