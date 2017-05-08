@@ -43,7 +43,7 @@ namespace Google\Longrunning {
      * server doesn't support this method, it returns `UNIMPLEMENTED`.
      *
      * NOTE: the `name` binding below allows API services to override the binding
-     * to use different resource name schemes, such as `users/*/operations`.
+     * to use different resource name schemes, such as `users/*operations`.
      * @param \Google\Longrunning\ListOperationsRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
