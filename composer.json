@@ -1,5 +1,5 @@
 {
-    "name": "google/proto-client-php",
+    "name": "google/proto-client",
     "type": "library",
     "description": "Generated proto and gRPC classes for Google Cloud Platform in PHP",
     "keywords": ["google"],
