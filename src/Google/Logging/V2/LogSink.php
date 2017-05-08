@@ -95,6 +95,25 @@ class LogSink extends \Google\Protobuf\Internal\Message
     private $writer_identity = '';
     /**
      * <pre>
+     * Optional. This field applies only to sinks owned by organizations and
+     * folders. If the field is false, the default, only the logs owned by the
+     * sink's parent resource are available for export. If the field is true, then
+     * logs from all the projects, folders, and billing accounts contained in the
+     * sink's parent resource are also available for export. Whether a particular
+     * log entry from the children is exported depends on the sink's filter
+     * expression. For example, if this field is true, then the filter
+     * `resource.type=gce_instance` would export all Compute Engine VM instance
+     * log entries from all projects in the sink's parent. To only export entries
+     * from certain child projects, filter on the project part of the log name:
+     *     logName:("projects/test-project1/" OR "projects/test-project2/") AND
+     *     resource.type=gce_instance
+     * </pre>
+     *
+     * <code>bool include_children = 9;</code>
+     */
+    private $include_children = false;
+    /**
+     * <pre>
      * Optional. The time at which this sink will begin exporting log entries.
      * Log entries are exported only if their timestamp is not earlier than the
      * start time.  The default value of this field is the time the sink is
@@ -309,6 +328,53 @@ class LogSink extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkString($var, True);
         $this->writer_identity = $var;
+    }
+
+    /**
+     * <pre>
+     * Optional. This field applies only to sinks owned by organizations and
+     * folders. If the field is false, the default, only the logs owned by the
+     * sink's parent resource are available for export. If the field is true, then
+     * logs from all the projects, folders, and billing accounts contained in the
+     * sink's parent resource are also available for export. Whether a particular
+     * log entry from the children is exported depends on the sink's filter
+     * expression. For example, if this field is true, then the filter
+     * `resource.type=gce_instance` would export all Compute Engine VM instance
+     * log entries from all projects in the sink's parent. To only export entries
+     * from certain child projects, filter on the project part of the log name:
+     *     logName:("projects/test-project1/" OR "projects/test-project2/") AND
+     *     resource.type=gce_instance
+     * </pre>
+     *
+     * <code>bool include_children = 9;</code>
+     */
+    public function getIncludeChildren()
+    {
+        return $this->include_children;
+    }
+
+    /**
+     * <pre>
+     * Optional. This field applies only to sinks owned by organizations and
+     * folders. If the field is false, the default, only the logs owned by the
+     * sink's parent resource are available for export. If the field is true, then
+     * logs from all the projects, folders, and billing accounts contained in the
+     * sink's parent resource are also available for export. Whether a particular
+     * log entry from the children is exported depends on the sink's filter
+     * expression. For example, if this field is true, then the filter
+     * `resource.type=gce_instance` would export all Compute Engine VM instance
+     * log entries from all projects in the sink's parent. To only export entries
+     * from certain child projects, filter on the project part of the log name:
+     *     logName:("projects/test-project1/" OR "projects/test-project2/") AND
+     *     resource.type=gce_instance
+     * </pre>
+     *
+     * <code>bool include_children = 9;</code>
+     */
+    public function setIncludeChildren($var)
+    {
+        GPBUtil::checkBool($var);
+        $this->include_children = $var;
     }
 
     /**

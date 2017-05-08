@@ -64,6 +64,14 @@ class LogEntry extends \Google\Protobuf\Internal\Message
     private $timestamp = null;
     /**
      * <pre>
+     * Output only. The time the log entry was received by Stackdriver Logging.
+     * </pre>
+     *
+     * <code>.google.protobuf.Timestamp receive_timestamp = 24;</code>
+     */
+    private $receive_timestamp = null;
+    /**
+     * <pre>
      * Optional. The severity of the log entry. The default value is
      * `LogSeverity.DEFAULT`.
      * </pre>
@@ -334,6 +342,31 @@ class LogEntry extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkMessage($var, \Google\Protobuf\Timestamp::class);
         $this->timestamp = $var;
+    }
+
+    /**
+     * <pre>
+     * Output only. The time the log entry was received by Stackdriver Logging.
+     * </pre>
+     *
+     * <code>.google.protobuf.Timestamp receive_timestamp = 24;</code>
+     */
+    public function getReceiveTimestamp()
+    {
+        return $this->receive_timestamp;
+    }
+
+    /**
+     * <pre>
+     * Output only. The time the log entry was received by Stackdriver Logging.
+     * </pre>
+     *
+     * <code>.google.protobuf.Timestamp receive_timestamp = 24;</code>
+     */
+    public function setReceiveTimestamp(&$var)
+    {
+        GPBUtil::checkMessage($var, \Google\Protobuf\Timestamp::class);
+        $this->receive_timestamp = $var;
     }
 
     /**
