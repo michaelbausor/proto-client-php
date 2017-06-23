@@ -79,7 +79,7 @@
     </div>
 
     <p>    class
-    <strong>TransactionOptions_ReadOnly</strong>        extends <abbr title="Google\Protobuf\Internal\Message">Message</abbr>        (<a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php">View source</a>)
+    <strong>TransactionOptions_ReadOnly</strong>        extends <abbr title="Google\Protobuf\Internal\Message">Message</abbr>
 </p>
 
         
@@ -142,7 +142,7 @@ are visible.</p>                </div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    <abbr title="Google\Protobuf\Timestamp">Timestamp</abbr>
+                    <a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a>
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getMinReadTimestamp">getMinReadTimestamp</a>()
@@ -155,14 +155,14 @@ are visible.</p>                </div>
                     
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_setMinReadTimestamp">setMinReadTimestamp</a>(<abbr title="Google\Protobuf\Timestamp">Timestamp</abbr> $var)
+                    <a href="#method_setMinReadTimestamp">setMinReadTimestamp</a>(<a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a> $var)
         
                                             <p>Executes all reads at a timestamp >= <code>min_read_timestamp</code>.</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    <abbr title="Google\Protobuf\Duration">Duration</abbr>
+                    <a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a>
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getMaxStaleness">getMaxStaleness</a>()
@@ -180,7 +180,7 @@ commit timestamps.</p>                </div>
                     
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_setMaxStaleness">setMaxStaleness</a>(<abbr title="Google\Protobuf\Duration">Duration</abbr> $var)
+                    <a href="#method_setMaxStaleness">setMaxStaleness</a>(<a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a> $var)
         
                                             <p>Read data at a timestamp >= <code>NOW - max_staleness</code>
 seconds. Guarantees that all writes that have committed more
@@ -192,7 +192,7 @@ commit timestamps.</p>                </div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    <abbr title="Google\Protobuf\Timestamp">Timestamp</abbr>
+                    <a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a>
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getReadTimestamp">getReadTimestamp</a>()
@@ -209,7 +209,7 @@ specified timestamp, modulo the read's deadline.</p>                </div>
                     
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_setReadTimestamp">setReadTimestamp</a>(<abbr title="Google\Protobuf\Timestamp">Timestamp</abbr> $var)
+                    <a href="#method_setReadTimestamp">setReadTimestamp</a>(<a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a> $var)
         
                                             <p>Executes all reads at the given timestamp. Unlike other modes,
 reads at a specific timestamp are repeatable; the same read at
@@ -220,7 +220,7 @@ specified timestamp, modulo the read's deadline.</p>                </div>
             </div>
                     <div class="row">
                 <div class="col-md-2 type">
-                    <abbr title="Google\Protobuf\Duration">Duration</abbr>
+                    <a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a>
                 </div>
                 <div class="col-md-8 type">
                     <a href="#method_getExactStaleness">getExactStaleness</a>()
@@ -234,7 +234,7 @@ old. The timestamp is chosen soon after the read is started.</p>                
                     
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method_setExactStaleness">setExactStaleness</a>(<abbr title="Google\Protobuf\Duration">Duration</abbr> $var)
+                    <a href="#method_setExactStaleness">setExactStaleness</a>(<a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a> $var)
         
                                             <p>Executes all reads at a timestamp that is <code>exact_staleness</code>
 old. The timestamp is chosen soon after the read is started.</p>                </div>
@@ -281,7 +281,7 @@ the [Transaction][google.spanner.v1.Transaction] message that describes the tran
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L27">line 27</a></div>
+        <div class="location">at         line 27</div>
         <code>                    
     <strong>__construct</strong>()
         </code>
@@ -300,7 +300,7 @@ the [Transaction][google.spanner.v1.Transaction] message that describes the tran
             </div>
                     <div class="method-item">
                     <h3 id="method_getStrong">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L39">line 39</a></div>
+        <div class="location">at         line 39</div>
         <code>                    bool
     <strong>getStrong</strong>()
         </code>
@@ -331,7 +331,7 @@ are visible.</p>                    <p>Generated from protobuf field <code>bool 
             </div>
                     <div class="method-item">
                     <h3 id="method_setStrong">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L51">line 51</a></div>
+        <div class="location">at         line 51</div>
         <code>                    
     <strong>setStrong</strong>(bool $var)
         </code>
@@ -363,8 +363,8 @@ are visible.</p>                    <p>Generated from protobuf field <code>bool 
             </div>
                     <div class="method-item">
                     <h3 id="method_getMinReadTimestamp">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L67">line 67</a></div>
-        <code>                    <abbr title="Google\Protobuf\Timestamp">Timestamp</abbr>
+        <div class="location">at         line 67</div>
+        <code>                    <a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a>
     <strong>getMinReadTimestamp</strong>()
         </code>
     </h3>
@@ -385,7 +385,7 @@ Note that this option can only be used in single-use transactions.</p>
 
                     <table class="table table-condensed">
         <tr>
-            <td><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></td>
+            <td><a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a></td>
             <td></td>
         </tr>
     </table>
@@ -398,9 +398,9 @@ Note that this option can only be used in single-use transactions.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_setMinReadTimestamp">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L82">line 82</a></div>
+        <div class="location">at         line 82</div>
         <code>                    
-    <strong>setMinReadTimestamp</strong>(<abbr title="Google\Protobuf\Timestamp">Timestamp</abbr> $var)
+    <strong>setMinReadTimestamp</strong>(<a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a> $var)
         </code>
     </h3>
     <div class="details">
@@ -419,7 +419,7 @@ Note that this option can only be used in single-use transactions.</p>
 
                     <table class="table table-condensed">
                     <tr>
-                <td><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></td>
+                <td><a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a></td>
                 <td>$var</td>
                 <td></td>
             </tr>
@@ -434,8 +434,8 @@ Note that this option can only be used in single-use transactions.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_getMaxStaleness">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L104">line 104</a></div>
-        <code>                    <abbr title="Google\Protobuf\Duration">Duration</abbr>
+        <div class="location">at         line 104</div>
+        <code>                    <a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a>
     <strong>getMaxStaleness</strong>()
         </code>
     </h3>
@@ -462,7 +462,7 @@ transactions.</p>
 
                     <table class="table table-condensed">
         <tr>
-            <td><abbr title="Google\Protobuf\Duration">Duration</abbr></td>
+            <td><a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a></td>
             <td></td>
         </tr>
     </table>
@@ -475,9 +475,9 @@ transactions.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_setMaxStaleness">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L125">line 125</a></div>
+        <div class="location">at         line 125</div>
         <code>                    
-    <strong>setMaxStaleness</strong>(<abbr title="Google\Protobuf\Duration">Duration</abbr> $var)
+    <strong>setMaxStaleness</strong>(<a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a> $var)
         </code>
     </h3>
     <div class="details">
@@ -502,7 +502,7 @@ transactions.</p>
 
                     <table class="table table-condensed">
                     <tr>
-                <td><abbr title="Google\Protobuf\Duration">Duration</abbr></td>
+                <td><a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a></td>
                 <td>$var</td>
                 <td></td>
             </tr>
@@ -517,8 +517,8 @@ transactions.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_getReadTimestamp">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L144">line 144</a></div>
-        <code>                    <abbr title="Google\Protobuf\Timestamp">Timestamp</abbr>
+        <div class="location">at         line 144</div>
+        <code>                    <a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a>
     <strong>getReadTimestamp</strong>()
         </code>
     </h3>
@@ -542,7 +542,7 @@ data.</p>
 
                     <table class="table table-condensed">
         <tr>
-            <td><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></td>
+            <td><a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a></td>
             <td></td>
         </tr>
     </table>
@@ -555,9 +555,9 @@ data.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_setReadTimestamp">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L162">line 162</a></div>
+        <div class="location">at         line 162</div>
         <code>                    
-    <strong>setReadTimestamp</strong>(<abbr title="Google\Protobuf\Timestamp">Timestamp</abbr> $var)
+    <strong>setReadTimestamp</strong>(<a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a> $var)
         </code>
     </h3>
     <div class="details">
@@ -579,7 +579,7 @@ data.</p>
 
                     <table class="table table-condensed">
                     <tr>
-                <td><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></td>
+                <td><a href="../../../Google/Protobuf/Timestamp.html"><abbr title="Google\Protobuf\Timestamp">Timestamp</abbr></a></td>
                 <td>$var</td>
                 <td></td>
             </tr>
@@ -594,8 +594,8 @@ data.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_getExactStaleness">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L182">line 182</a></div>
-        <code>                    <abbr title="Google\Protobuf\Duration">Duration</abbr>
+        <div class="location">at         line 182</div>
+        <code>                    <a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a>
     <strong>getExactStaleness</strong>()
         </code>
     </h3>
@@ -620,7 +620,7 @@ timestamp negotiation overhead of <code>max_staleness</code>.</p>
 
                     <table class="table table-condensed">
         <tr>
-            <td><abbr title="Google\Protobuf\Duration">Duration</abbr></td>
+            <td><a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a></td>
             <td></td>
         </tr>
     </table>
@@ -633,9 +633,9 @@ timestamp negotiation overhead of <code>max_staleness</code>.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_setExactStaleness">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L201">line 201</a></div>
+        <div class="location">at         line 201</div>
         <code>                    
-    <strong>setExactStaleness</strong>(<abbr title="Google\Protobuf\Duration">Duration</abbr> $var)
+    <strong>setExactStaleness</strong>(<a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a> $var)
         </code>
     </h3>
     <div class="details">
@@ -658,7 +658,7 @@ timestamp negotiation overhead of <code>max_staleness</code>.</p>
 
                     <table class="table table-condensed">
                     <tr>
-                <td><abbr title="Google\Protobuf\Duration">Duration</abbr></td>
+                <td><a href="../../../Google/Protobuf/Duration.html"><abbr title="Google\Protobuf\Duration">Duration</abbr></a></td>
                 <td>$var</td>
                 <td></td>
             </tr>
@@ -673,7 +673,7 @@ timestamp negotiation overhead of <code>max_staleness</code>.</p>
             </div>
                     <div class="method-item">
                     <h3 id="method_getReturnReadTimestamp">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L214">line 214</a></div>
+        <div class="location">at         line 214</div>
         <code>                    bool
     <strong>getReturnReadTimestamp</strong>()
         </code>
@@ -704,7 +704,7 @@ the [Transaction][google.spanner.v1.Transaction] message that describes the tran
             </div>
                     <div class="method-item">
                     <h3 id="method_setReturnReadTimestamp">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L226">line 226</a></div>
+        <div class="location">at         line 226</div>
         <code>                    
     <strong>setReturnReadTimestamp</strong>(bool $var)
         </code>
@@ -736,7 +736,7 @@ the [Transaction][google.spanner.v1.Transaction] message that describes the tran
             </div>
                     <div class="method-item">
                     <h3 id="method_getTimestampBound">
-        <div class="location">at         <a href="https://github.com/googleapis/proto-client-php/blob/master/Google/Spanner/V1/TransactionOptions_ReadOnly.php#L235">line 235</a></div>
+        <div class="location">at         line 235</div>
         <code>                    string
     <strong>getTimestampBound</strong>()
         </code>
