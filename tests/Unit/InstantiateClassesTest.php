@@ -40,7 +40,8 @@ class InstantiateClassesTest extends TestCase
     public function testInstantiateClass($class)
     {
         if (strpos($class, 'GrpcClient') !== false) {
-            //$args = ['credentials' => null];
+            // We use a verbose construction of $args to avoid missing
+            // key errors of unknown cause.
             $args = [];
             $args['credentials'] = null;
             $instance = new $class('dummyhostname', $args);
